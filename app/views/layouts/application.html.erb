@@ -11,6 +11,31 @@
   </head>
 
   <body>
-    <%= yield %>
+    <header>
+      <div class="navbar navbar-dark bg-dark box-shadow">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <img src="/favicon.ico" width="20" height="20" class="mr-2">
+            <strong>Oauth2Provider</strong>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main role="main" class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="card">
+            <div class="card-body">
+              <%= yield %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted"><%= "Copyright &copy; Oauth2Provider Inc. #{Date.current.year} All rights reserved.".html_safe %></span>
+      </div>
+    </footer>
   </body>
 </html>
