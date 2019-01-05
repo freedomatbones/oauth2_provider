@@ -84,6 +84,9 @@ GEM
       railties (>= 4.1.0, < 6.0)
       responders
       warden (~> 1.2.3)
+    devise-bootstrap-views (1.1.0)
+    devise-i18n (1.7.0)
+      devise (>= 4.5)
     doorkeeper (5.0.2)
       railties (>= 4.2)
     doorkeeper-openid_connect (1.5.2)
@@ -230,6 +233,8 @@ DEPENDENCIES
   chromedriver-helper
   coffee-rails (~> 4.2)
   devise
+  devise-bootstrap-views (~> 1.0)
+  devise-i18n
   doorkeeper
   doorkeeper-openid_connect
   jbuilder (~> 2.5)
