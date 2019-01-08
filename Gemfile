@@ -42,6 +42,7 @@ gem 'devise-bootstrap-views', '~> 1.0'
 gem 'doorkeeper'
 gem 'doorkeeper-openid_connect'
 gem 'doorkeeper-i18n'
+gem 'rack-cors', require: 'rack/cors'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
